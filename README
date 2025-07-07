@@ -35,7 +35,7 @@ where can we write JavaScript?
 You can use these keywords to declare variables:
 1. let - modern way to declare variables in JS - values from let can be changed
 2. const - for constants - values cant be changed
-3. var - old way - works with old browsers  - not recommended -replaced by let
+3. var - old way - works with old browsers  - not recommended -replaced by let - depracated
 
 How to output in JS -> console.log()
 
@@ -115,18 +115,87 @@ Categories of Operators
 
 2. Comparison Operators - used to compare values -> return boolean values
 -> > < >= , <=, != ,
-== -> equality -> compares if two variables are same in value  
-=== -> strict equality -> checking for both value and data type
+== -> equality -> compares if two variables are same in value  '5' == 5
+=== -> strict equality -> checking for both value and data type 
 !== -> strict inequality
 
 3. Assignment Operators - assign values to variables
 = , += , -= , /= , %= ,**=
 
-
 4. Logical Operators 
 && - AND  - returns true if all are true
 || - OR  -  returns true if one is true
 ! - NOT  - returns the opposite value of a boolean
+
+
+
+TYPE CASTING
+-the process of converting data from one type to another
+1. Implicit conversion - type coercion 
+-> JS automtically converts types when needed to
+2. Explicit conversion - manual conversion
+
+Polymorphism -> operator overloading -> taking more than form / purpose
++ -> perform the arithemtic operation of summing
++ -> concatenate two strings
+
+
+Template literals - embedding variables into strings 
+- we use back ticks and $
+
+
+Conditional Statements -> decision makers
+types of conditional statements
+1. If else - one condition to be met 
+2. if , else if ,else -> multiple condtions / options to be met
+
+IN general :
+if (condition){
+    statement for if
+}else{
+    statement for else
+}
+
+
+if (condition 1){
+    statement for condition 1
+}else if (condition 2){
+    statement for condition 1
+}else if (condition 2){
+    statement for condition 3
+}
+else{
+    statement for else
+}
+
+
+1. Write a JS program that checks if a number is even or odd
+2. Write a JavaScript program that displays the largest integer among three integers.
+
+Taking user input in JS
+1.prompt()  -> simplest way to take user input
+
+N/B: Any data from user input will ALWAYS be a STRING
+
+
+TASK
+1. Create a variable called year and enter the a random year. Check if the year is a leap year or not. A leap year is a year that is divisible by 4  not divisible by 100 or divisible  by 400.
+
+2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :J
+September, October or November, the season is Autumn.
+December, January or February, the season is Winter.
+March, April or May, the season is Spring
+June, July or August, the season is Summer
+
+3. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+
+4. Write a code which can give grades to students according to theirs scores:
+80-100, A
+70-89, B
+60-69, C
+50-59, D
+0-49, F
+
 
 
 
