@@ -196,6 +196,43 @@ June, July or August, the season is Summer
 50-59, D
 0-49, F
 
+TERNARY OPERATOR  - SHORTHAND FOR IF STATEMENTS
+
+
+ARRAYS IN JS 
+-DATA STRUCTURE THAT CAN STORE MULTIPLE ITEMS OF DIFFERENT TYPES
+-Equivalent of a list in Python
+                Properties  
+1. syntax -> []
+2. are ordered - access values using index - indexing is zero based 
+3. are mutable - alter values
+4. arrays can store multiple values of different types  - 
+
+Array Operations
+1. accessing values in an array  - use index
+2. Updating or modifying values in an array - use index
+3. Check for the no of values in an array - length 
+4. adding elements to an array  - insert at the end -push()
+                                - insert at the begining - unshift()
+5. removing elements from an array - remove at the end -pop() -removes last element
+                                    - remove at the beginning -shift() - removes first element
+6. getting index of a value in an array -> indexOf()
+7. revsering an array  reverse()
+8. sorting an array - sort()
+9. combining two strings - concat
+
+10. slice()
+11. splice()
+12. includes()
+13. toString()
+14. join()
+
+
+a year is a leap year if:
+1. The year is divisble by 400
+2. The year is divisible by 4 && not divisible by 100
+
+
 
 
 
