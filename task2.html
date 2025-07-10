@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const userProfile = {
+        id: 101,
+        name: {
+          first: "Brian",
+          last: "Letting",
+        },
+        contact: {
+          email: "brian@example.com",
+          phones: ["+254700000001", "+254700000002"],
+        },
+        address: {
+          current: {
+            city: "Nairobi",
+            street: "Westlands Ave",
+            postalCode: "00100",
+          },
+          previous: [
+            {
+              city: "Eldoret",
+              street: "Main Street",
+              postalCode: "30100",
+            },
+            {
+              city: "Kisumu",
+              street: "Lake View Road",
+              postalCode: "40100",
+            },
+          ],
+        },
+        preferences: {
+          theme: "dark",
+          language: "en",
+          notifications: {
+            email: true,
+            sms: false,
+            push: ["promotions", "updates"],
+          },
+        },
+        projects: [
+          {
+            id: 1,
+            name: "POS System",
+            technologies: ["React", "FastAPI", "PostgreSQL"],
+            tasks: [
+              { title: "Set up DB", done: true },
+              { title: "Design UI", done: false },
+            ],
+          },
+          {
+            id: 2,
+            name: "Portfolio Website",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            tasks: [
+              { title: "Create About Page", done: true },
+              { title: "Deploy to Netlify", done: false },
+            ],
+          },
+        ],
+      };
+
+      console.log(userProfile.projects[1].tasks[1].title)
+      //{title: 'Deploy to Netlify', done: false}
+      //Deploy to Netlify
+    </script>
+  </body>
+</html>
